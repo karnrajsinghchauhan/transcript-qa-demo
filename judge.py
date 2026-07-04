@@ -78,6 +78,13 @@ def main() -> None:
     print(f"planted errors missed: {len(missed)}/{len(ground_truth)}  {missed}")
     print(f"false alarms on clean transcripts: {len(false_alarms)}  {false_alarms}")
 
+    n_clean = len(results) - len(ground_truth)
+    (ROOT / "report.html").write_text(
+        render_report(results, len(caught), len(ground_truth), len(false_alarms), n_clean),
+        encoding="utf-8",
+    )
+    print("wrote report.html")
+
 
 def calibrate(results: dict, ground_truth: dict) -> tuple[list, list, list]:
     """caught: judge FAILed the expected criterion on a planted transcript.
@@ -93,6 +100,43 @@ def calibrate(results: dict, ground_truth: dict) -> tuple[list, list, list]:
             if c["verdict"] == "FAIL":
                 false_alarms.append(f"{tid}#c{c['id']}")
     return caught, missed, false_alarms
+
+
+def render_report(results: dict, n_caught: int, n_planted: int, n_false: int, n_clean: int) -> str:
+    import html as h
+
+    rows = []
+    for tid, criteria in results.items():
+        for i, c in enumerate(criteria):
+            cell = f'<td class="{c["verdict"].lower()}">{c["verdict"]}</td><td>{h.escape(c["reason"])}</td>'
+            if i == 0:
+                rows.append(f'<tr><td rowspan="4" class="tid">{tid}</td><td>{c["id"]}</td>{cell}</tr>')
+            else:
+                rows.append(f'<tr><td>{c["id"]}</td>{cell}</tr>')
+    return f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Transcript-QA report</title>
+<style>
+body {{ font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       color: #1a1a1a; background: #fff; max-width: 900px; margin: 24px auto; font-size: 13px; }}
+h1 {{ font-size: 20px; }} h2 {{ font-size: 15px; margin-top: 20px; }}
+table {{ border-collapse: collapse; width: 100%; margin-top: 12px; }}
+th, td {{ border: 1px solid #ccc; padding: 4px 8px; text-align: left; vertical-align: top; }}
+th {{ background: #f2f2f2; }}
+.tid {{ font-weight: 600; }}
+.pass {{ color: #0a7a2f; font-weight: 600; }}
+.fail {{ color: #b00020; font-weight: 600; }}
+.calib {{ border: 2px solid #1a1a1a; padding: 10px 14px; margin-top: 20px; font-size: 14px; }}
+@media print {{ body {{ margin: 8mm; }} }}
+</style></head><body>
+<h1>Transcript-QA report</h1>
+<table>
+<tr><th>Transcript</th><th>Criterion</th><th>Verdict</th><th>Judge's reason</th></tr>
+{chr(10).join(rows)}
+</table>
+<div class="calib"><strong>Calibration:</strong> Judge caught {n_caught}/{n_planted} planted errors,
+{n_false} false alarms on {n_clean} clean transcripts.</div>
+</body></html>
+"""
 
 
 if __name__ == "__main__":
