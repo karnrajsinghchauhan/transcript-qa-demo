@@ -1,0 +1,21 @@
+AGENT: Hello, GadgetHub support, good afternoon. How may I assist you?
+CUSTOMER: Hi, the wireless keyboard I bought last week has stopped working. Keys are unresponsive.
+AGENT: I'm sorry to hear that. Could you give me the order number?
+CUSTOMER: GH-55420.
+AGENT: Thank you. I see the mechanical wireless keyboard, delivered on the 26th of June.
+CUSTOMER: Yes. I've changed the batteries and re-paired it twice. Nothing works.
+AGENT: Since you've already tried the basic steps, this qualifies for a technical assessment with our device team.
+CUSTOMER: Okay, how does that work?
+AGENT: The device team will call you, run a few diagnostics over the phone, and if the unit is faulty they'll approve a doorstep replacement.
+CUSTOMER: Fine. One thing — please make sure they call me on my new number, not the one on the account. I've changed my number recently.
+AGENT: Understood, I've made a note that you prefer to be reached on your new number.
+CUSTOMER: When will they call?
+AGENT: The technical team's callback window is tomorrow between 10 AM and 1 PM.
+CUSTOMER: Alright, I'll keep my phone handy.
+AGENT: Great. I have scheduled the callback for tomorrow morning and your case ID is CASE-8830.
+CUSTOMER: Should I keep the box and accessories?
+AGENT: Yes, please keep the original box, receiver dongle, and invoice — the replacement pickup needs all of them.
+CUSTOMER: Will do.
+AGENT: Your callback is confirmed for tomorrow between 10 and 1. Is there anything else?
+CUSTOMER: No, that's all. Thanks.
+AGENT: Thank you for your patience. Have a good day.

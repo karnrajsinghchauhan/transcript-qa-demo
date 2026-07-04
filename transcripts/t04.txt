@@ -1,0 +1,21 @@
+AGENT: Hello, thank you for calling PayEase support. How can I help you today?
+CUSTOMER: Hi, I made a payment an hour ago and the money left my account, but the merchant says they haven't received it.
+AGENT: I'm sorry about the confusion. Can you share the transaction reference number from the SMS you received?
+CUSTOMER: Yes, it's TXN-90218837.
+AGENT: Thank you. One moment while I look this up.
+CUSTOMER: Sure.
+AGENT: I can see the transaction of 2,499 rupees made at 1:42 PM today to BrightMart Online.
+CUSTOMER: That's correct. So where is the money?
+AGENT: The payment is currently in processing status with the receiving bank. This is a known settlement delay, not a failure.
+CUSTOMER: How long does that usually take?
+AGENT: Settlement completes within 2 hours in most cases. If the receiving bank cannot accept it, the amount auto-reverses to your account within 5 working days.
+CUSTOMER: Five days is a long time if it fails.
+AGENT: I understand the concern. Right now the status shows processing, not failed, so the most likely outcome is the merchant receives it within the next hour.
+CUSTOMER: Okay. Can I get some proof that I paid, to show the merchant?
+AGENT: Yes, I am emailing you the payment advice PDF with the UTR number now. The merchant can trace it with their bank using that UTR.
+CUSTOMER: Received it. That helps.
+AGENT: If the merchant still cannot see it after 2 hours, please call us back and we will open a formal trace with the reference number I've noted on this call.
+CUSTOMER: Understood. Thanks for explaining.
+AGENT: You're welcome. Anything else I can assist with?
+CUSTOMER: No, that covers it.
+AGENT: Thank you for using PayEase. Have a good day.

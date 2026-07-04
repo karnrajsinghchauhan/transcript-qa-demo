@@ -1,0 +1,6 @@
+{
+  "t02": "agent states wrong delivery date vs customer's stated order",
+  "t05": "agent invents a refund policy not requested or stated",
+  "t07": "agent confirms a callback but never collects the phone number",
+  "t10": "agent switches to English mid-call despite Hindi customer"
+}

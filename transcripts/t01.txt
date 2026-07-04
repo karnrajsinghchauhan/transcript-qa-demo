@@ -1,0 +1,19 @@
+AGENT: Good morning, thank you for calling QuickKart support. How may I help you today?
+CUSTOMER: Hi, I wanted to check the status of my order. The order number is QK-48291.
+AGENT: Sure, let me pull that up. Can you confirm the name on the order?
+CUSTOMER: Yes, it's Meera Nair.
+AGENT: Thank you, Meera. I can see order QK-48291, a ceramic dinner set, placed on the 28th of June.
+CUSTOMER: That's the one. It was supposed to ship last week but I haven't received any update.
+AGENT: I understand. Checking the shipment log now — it left our Bhiwandi warehouse on the 1st of July.
+CUSTOMER: Okay, so where is it now?
+AGENT: The courier scanned it at the Kochi hub this morning. It is out for delivery today.
+CUSTOMER: Oh, that's good news. Do I need to be home to sign for it?
+AGENT: No signature is required. The courier will leave it with building security if you are out, as per your delivery preferences.
+CUSTOMER: Perfect. And if anything is broken inside?
+AGENT: If any item arrives damaged, you can raise a replacement request from the app within 7 days, under My Orders.
+CUSTOMER: Alright. Can you also send me the tracking link?
+AGENT: I have just sent the live tracking link to your registered mobile number ending 8347.
+CUSTOMER: Got it, it just arrived. Thanks for the help.
+AGENT: You're welcome, Meera. Is there anything else I can help you with today?
+CUSTOMER: No, that's everything.
+AGENT: Thank you for calling QuickKart, and have a lovely day.

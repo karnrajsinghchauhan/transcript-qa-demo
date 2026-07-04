@@ -1,0 +1,21 @@
+AGENT: Good afternoon, CityCare Clinic appointments desk. How may I help you?
+CUSTOMER: Hi, I'd like to book an appointment with a dermatologist.
+AGENT: Certainly. Have you visited CityCare before?
+CUSTOMER: Yes, I'm a registered patient. My patient ID is CC-2210.
+AGENT: Thank you. Am I speaking with Ms. Kavya Reddy?
+CUSTOMER: Yes, that's me.
+AGENT: Great. We have two dermatologists available — Dr. Menon and Dr. Kulkarni. Do you have a preference?
+CUSTOMER: Dr. Menon, please. I saw her last time.
+AGENT: Dr. Menon has openings this Thursday at 11 AM and Friday at 4:30 PM. Which works better?
+CUSTOMER: Friday at 4:30 would be perfect.
+AGENT: Booking you with Dr. Menon, Friday the 10th of July at 4:30 PM. Shall I confirm?
+CUSTOMER: Yes, please confirm.
+AGENT: Done. Your appointment is confirmed, and the booking reference is APT-5561.
+CUSTOMER: Do I need to bring anything?
+AGENT: Please carry your patient ID and any previous prescriptions from Dr. Menon.
+CUSTOMER: Alright. Is there parking at the clinic?
+AGENT: Yes, basement parking is free for patients for up to two hours.
+CUSTOMER: Perfect, thank you so much.
+AGENT: You're welcome, Ms. Reddy. You'll receive an SMS confirmation shortly. Anything else?
+CUSTOMER: No, that's all. Thanks!
+AGENT: Have a great day, and see you on Friday.

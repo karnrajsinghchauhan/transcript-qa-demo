@@ -1,0 +1,21 @@
+AGENT: Good morning, FinServe card support. How may I help you?
+CUSTOMER: Hi, there's a charge on my credit card statement I don't recognise.
+AGENT: I can help with that. For verification, may I have your name and the last four digits of the card?
+CUSTOMER: Sunita Joshi, card ending 4412.
+AGENT: Thank you, Ms. Joshi. You're verified. Which charge are you referring to?
+CUSTOMER: There's a debit of 899 rupees on the 30th of June labelled "MZ-SUBSCRIPTION".
+AGENT: Let me look at that transaction. One moment.
+CUSTOMER: Okay.
+AGENT: The merchant descriptor maps to MuseZone, a music streaming service. It was charged as an annual renewal.
+CUSTOMER: MuseZone... oh. I took a trial last year. I thought I had cancelled it.
+AGENT: The trial converted to a paid annual plan on the 30th. That's what this charge is.
+CUSTOMER: I don't want it. Can you reverse it?
+AGENT: Since it's a merchant subscription, the cancellation and refund have to come from MuseZone directly. I can block future charges from this merchant on your card right away.
+CUSTOMER: Yes, please block them.
+AGENT: Done — future MuseZone charges on card 4412 will be declined.
+CUSTOMER: And for this 899?
+AGENT: Contact MuseZone support within their 15-day renewal window and request cancellation with refund. If they refuse, call us back and we can raise a chargeback dispute with the transaction details.
+CUSTOMER: That's clear. I'll email them today.
+AGENT: Anything else I can help you with, Ms. Joshi?
+CUSTOMER: No, you've been very helpful.
+AGENT: Thank you for calling FinServe. Have a great day.

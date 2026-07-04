@@ -1,0 +1,21 @@
+AGENT: Hello, you've reached HomeNest customer care. How can I assist you?
+CUSTOMER: Hi, I'm calling about my sofa order. Order ID HN-7734.
+AGENT: Let me check that for you. May I have your name please?
+CUSTOMER: Arjun Bhatt.
+AGENT: Thank you, Mr. Bhatt. I have your order HN-7734 on screen.
+CUSTOMER: I placed it on the 20th of June, and at checkout it clearly said delivery by the 8th of July. I want to confirm that date still holds.
+AGENT: I understand you want to confirm your delivery date.
+CUSTOMER: Yes, exactly. The 8th of July is what I was promised at checkout, and I've taken that day off work.
+AGENT: Thank you for confirming that. Let me check the logistics schedule.
+CUSTOMER: Okay.
+AGENT: I have checked, and your sofa is scheduled for delivery on the 18th of July as originally promised at checkout.
+CUSTOMER: Oh, alright. As long as it comes on the promised date, that works.
+AGENT: Yes, it is on track for the promised date. The delivery team will call you an hour before arrival.
+CUSTOMER: Fine. Will they assemble it as well?
+AGENT: Yes, assembly is included. The team carries the tools and it takes about forty minutes.
+CUSTOMER: Great. And there's no extra charge for that?
+AGENT: No extra charge, assembly is part of your purchase.
+CUSTOMER: Okay, thank you.
+AGENT: My pleasure, Mr. Bhatt. Anything else I can help with?
+CUSTOMER: No, that's all for now.
+AGENT: Thank you for choosing HomeNest. Have a good day.

@@ -1,0 +1,21 @@
+AGENT: नमस्ते, हेल्थप्लस क्लिनिक अपॉइंटमेंट डेस्क में आपका स्वागत है। मैं आपकी क्या मदद कर सकता हूँ?
+CUSTOMER: नमस्ते, मुझे डॉक्टर से मिलने का समय लेना है। मेरे घुटने में दर्द है।
+AGENT: जी बिल्कुल। क्या आप पहले हमारे क्लिनिक आए हैं?
+CUSTOMER: हाँ, मेरा पेशेंट नंबर HP-905 है।
+AGENT: धन्यवाद। क्या मैं श्री रमेश यादव से बात कर रहा हूँ?
+CUSTOMER: हाँ जी, मैं रमेश यादव बोल रहा हूँ।
+AGENT: घुटने के दर्द के लिए हड्डी रोग विशेषज्ञ डॉक्टर वर्मा उपलब्ध हैं। क्या आपको कोई खास दिन चाहिए?
+CUSTOMER: जितनी जल्दी हो सके, इस हफ्ते में ही।
+AGENT: डॉक्टर वर्मा कल सुबह 10 बजे और शुक्रवार शाम 5 बजे उपलब्ध हैं।
+CUSTOMER: कल सुबह 10 बजे ठीक रहेगा।
+AGENT: Alright, so I am booking you with Dr. Verma tomorrow at 10 AM. Your booking reference is APT-7742.
+CUSTOMER: जी... ठीक है। क्या कुछ साथ लाना होगा?
+AGENT: Please bring your patient card and any previous X-ray reports if you have them.
+CUSTOMER: मेरे पास पिछले साल का एक्स-रे है, वही ले आऊँगा।
+AGENT: That works. The consultation fee is 600 rupees, payable at the reception.
+CUSTOMER: ठीक है। क्लिनिक का पता वही पुराना है ना?
+AGENT: Yes, same address, second floor of the Galaxy Complex.
+CUSTOMER: अच्छा, धन्यवाद।
+AGENT: You're welcome, Mr. Yadav. See you tomorrow at 10 AM.
+CUSTOMER: जी, नमस्ते।
+AGENT: Thank you for calling HealthPlus, goodbye.

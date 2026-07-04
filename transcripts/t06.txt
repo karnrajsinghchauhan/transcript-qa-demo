@@ -1,0 +1,21 @@
+AGENT: Good morning, DentAlign appointments. How can I help you today?
+CUSTOMER: Hi, I need to reschedule my appointment. Something urgent came up at work.
+AGENT: No problem. Can I have your booking reference?
+CUSTOMER: It's DA-1187, under the name Farhan Ali.
+AGENT: Thank you, Mr. Ali. I see your cleaning appointment tomorrow, Wednesday, at 10 AM with Dr. Shah.
+CUSTOMER: Yes, that's the one. Can I move it to next week?
+AGENT: Certainly. Dr. Shah has slots next Tuesday at 9:30 AM, Wednesday at 2 PM, and Friday at 11 AM.
+CUSTOMER: Tuesday 9:30 works for me.
+AGENT: Moving your appointment to Tuesday the 14th of July at 9:30 AM with Dr. Shah. Confirm?
+CUSTOMER: Yes, confirm it.
+AGENT: Done. Your reference stays DA-1187, and I've cancelled tomorrow's slot so there's no no-show fee.
+CUSTOMER: Great, I was worried about that fee.
+AGENT: No charge at all since you rescheduled more than 12 hours in advance.
+CUSTOMER: Perfect. Same clinic location, right?
+AGENT: Yes, the Koramangala branch, third floor.
+CUSTOMER: Got it. Will I get a reminder?
+AGENT: You'll receive an SMS reminder 24 hours before, and a WhatsApp confirmation right after this call.
+CUSTOMER: Excellent. Thanks for making that easy.
+AGENT: You're welcome, Mr. Ali. Anything else?
+CUSTOMER: No, that's everything.
+AGENT: See you next Tuesday. Have a good day.

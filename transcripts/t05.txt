@@ -1,0 +1,21 @@
+AGENT: Good evening, you've reached SwiftShip support. How may I help?
+CUSTOMER: Hi, my parcel was supposed to arrive two days ago and it still shows in transit. Order SW-3302.
+AGENT: I'm sorry for the delay. Let me check. Could you confirm your name?
+CUSTOMER: Rohit Sen.
+AGENT: Thank you, Mr. Sen. I see order SW-3302, a pair of running shoes, currently at our Nagpur sorting facility.
+CUSTOMER: Nagpur? It was supposed to be delivered in Pune two days ago.
+AGENT: You're right, the parcel missed its connection and has been rerouted. The updated delivery estimate is this Saturday.
+CUSTOMER: That's four days late in total. This is really inconvenient.
+AGENT: I completely understand, and I apologise for the inconvenience.
+CUSTOMER: Is there any way to speed it up?
+AGENT: I have marked the parcel as priority, which moves it to the first outbound truck from Nagpur tomorrow morning.
+CUSTOMER: Okay, I suppose that helps.
+AGENT: Also, since the delivery is delayed beyond three days, our standard policy gives you an automatic refund of 150 percent of the shipping fee, which I have applied to your account.
+CUSTOMER: Oh — I hadn't asked about a refund, but fine, I won't say no.
+AGENT: It will reflect in your account within 24 hours.
+CUSTOMER: Alright. And Saturday is definite?
+AGENT: Saturday is the current estimate with priority handling. You will get SMS updates at each scan point.
+CUSTOMER: Okay. Let's hope it arrives this time.
+AGENT: We'll do our best, Mr. Sen. Anything else I can help with?
+CUSTOMER: No, that's it.
+AGENT: Thank you for your patience, and have a good evening.

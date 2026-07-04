@@ -1,0 +1,19 @@
+AGENT: Hello, you've reached StyleCart support. How can I help?
+CUSTOMER: Hi, I want to cancel an order I placed this morning.
+AGENT: Sure, I can help with that. What's the order number?
+CUSTOMER: SC-66104.
+AGENT: One moment. I see it — two cotton kurtas, placed today at 9:15 AM.
+CUSTOMER: Yes. I ordered the wrong sizes by mistake.
+AGENT: Not a problem. Since the order hasn't been packed yet, I can cancel it fully right now.
+CUSTOMER: Yes, please cancel it.
+AGENT: Cancelling now... done. Order SC-66104 is cancelled.
+CUSTOMER: And the money? I paid by UPI.
+AGENT: The full amount of 1,798 rupees will be refunded to the same UPI account within 3 to 5 working days.
+CUSTOMER: Okay. Will I get a confirmation?
+AGENT: Yes, the cancellation email has just gone out, and the refund reference is RF-20713.
+CUSTOMER: Got the email. If I reorder the right sizes now, will it come at the same price?
+AGENT: The items are still at the same listed price right now, so yes if you order now. Prices can change later, though.
+CUSTOMER: Understood, I'll reorder right away.
+AGENT: Anything else I can do for you?
+CUSTOMER: No, that was quick. Thanks.
+AGENT: You're welcome. Thank you for shopping with StyleCart.

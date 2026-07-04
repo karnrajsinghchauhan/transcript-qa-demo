@@ -9,7 +9,7 @@ Standalone repo, built 2026-07-04. Purpose: minimal transcript-QA harness with p
 ## Steps
 
 - [x] Setup: repo folder, git init, PROGRESS.md
-- [ ] 1. transcripts/ — 10 synthetic calls (t01–t10), 4 planted errors, ground_truth.json
+- [x] 1. transcripts/ — 10 synthetic calls (t01–t10), 4 planted errors, ground_truth.json
 - [ ] 2. rubric.md — 4 one-line criteria
 - [ ] 3. judge.py — per-transcript LLM call, strict JSON, loud failure
 - [ ] 4. judge.py — calibration vs ground_truth.json (caught / missed / false alarms)
