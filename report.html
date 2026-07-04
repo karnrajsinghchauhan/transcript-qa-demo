@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Transcript-QA report</title>
+<style>
+body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       color: #1a1a1a; background: #fff; max-width: 900px; margin: 24px auto; font-size: 13px; }
+h1 { font-size: 20px; } h2 { font-size: 15px; margin-top: 20px; }
+table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: left; vertical-align: top; }
+th { background: #f2f2f2; }
+.tid { font-weight: 600; }
+.pass { color: #0a7a2f; font-weight: 600; }
+.fail { color: #b00020; font-weight: 600; }
+.calib { border: 2px solid #1a1a1a; padding: 10px 14px; margin-top: 20px; font-size: 14px; }
+@media print { body { margin: 8mm; } }
+</style></head><body>
+<h1>Transcript-QA report</h1>
+<table>
+<tr><th>Transcript</th><th>Criterion</th><th>Verdict</th><th>Judge's reason</th></tr>
+<tr><td rowspan="4" class="tid">t01</td><td>1</td><td class="pass">PASS</td><td>The agent consistently uses the order number &#x27;QK-48291&#x27; and name &#x27;Meera Nair&#x27; provided by the customer without contradiction.</td></tr>
+<tr><td>2</td><td class="pass">PASS</td><td>The agent explains existing policies regarding signature requirements and damaged item replacements (&#x27;as per your delivery preferences&#x27;, &#x27;raise a replacement request from the app&#x27;) without inventing new ones.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The agent resolves the customer&#x27;s request for order status and sends the tracking link, confirmed by the customer receiving it: &#x27;Got it, it just arrived.&#x27;</td></tr>
+<tr><td>4</td><td class="pass">PASS</td><td>The agent maintains English throughout the call, matching the language spoken by the customer.</td></tr>
+<tr><td rowspan="4" class="tid">t02</td><td>1</td><td class="fail">FAIL</td><td>The agent stated, &quot;your sofa is scheduled for delivery on the 18th of July as originally promised at checkout,&quot; which contradicts the customer&#x27;s clear statement that &quot;delivery by the 8th of July&quot; was promised at checkout.</td></tr>
+<tr><td>2</td><td class="pass">PASS</td><td>The agent did not offer any policies, refunds, or promises that were not requested by the customer or were not existing information in the call.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The customer&#x27;s primary request to confirm the delivery date was addressed, and secondary questions regarding assembly and charges were resolved, with the customer expressing acceptance of the new information.</td></tr>
+<tr><td>4</td><td class="pass">PASS</td><td>The agent consistently used English throughout the call, matching the language spoken by the customer.</td></tr>
+<tr><td rowspan="4" class="tid">t03</td><td>1</td><td class="pass">PASS</td><td>The agent consistently uses the customer&#x27;s stated name &#x27;Ms. Kavya Reddy&#x27; and patient ID implicitly, and the proposed appointment time &#x27;Friday the 10th of July at 4:30 PM&#x27; aligns with the customer&#x27;s preference &#x27;Friday at 4:30&#x27;.</td></tr>
+<tr><td>2</td><td class="pass">PASS</td><td>The agent provides information about existing policies (free basement parking for up to two hours) in response to a direct question, and the mention of an SMS confirmation is a standard, non-invented operational procedure.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The customer&#x27;s primary request to book an appointment with a dermatologist was successfully resolved and confirmed, with all necessary details provided.</td></tr>
+<tr><td>4</td><td class="pass">PASS</td><td>The agent consistently uses English, the same language as the customer, throughout the entire call.</td></tr>
+<tr><td rowspan="4" class="tid">t04</td><td>1</td><td class="pass">PASS</td><td>The agent&#x27;s statement &#x27;I can see the transaction of 2,499 rupees made at 1:42 PM today to BrightMart Online&#x27; is confirmed by the customer as &#x27;That&#x27;s correct.&#x27;</td></tr>
+<tr><td>2</td><td class="pass">PASS</td><td>The agent provides information about &#x27;known settlement delay&#x27; and &#x27;auto-reverses to your account within 5 working days&#x27; as existing policies/processes, and sends requested &#x27;payment advice PDF&#x27;, without inventing new commitments.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The agent explains the payment status, provides expected resolution time, emails the requested proof of payment, and outlines clear next steps if the issue persists, which the customer confirms &#x27;covers it&#x27;.</td></tr>
+<tr><td>4</td><td class="pass">PASS</td><td>The agent consistently uses English, matching the customer&#x27;s language throughout the call.</td></tr>
+<tr><td rowspan="4" class="tid">t05</td><td>1</td><td class="pass">PASS</td><td>The agent consistently acknowledges and incorporates the customer&#x27;s stated details regarding the order number, name, and original delivery location.</td></tr>
+<tr><td>2</td><td class="fail">FAIL</td><td>The agent offered an unprompted refund based on a &#x27;standard policy&#x27; that the customer explicitly stated they had not asked about, introducing a commitment not requested or previously established in the call.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The agent addressed the customer&#x27;s primary concern by providing an updated delivery estimate and taking action to prioritize the parcel for faster delivery.</td></tr>
+<tr><td>4</td><td class="pass">PASS</td><td>The agent maintained English throughout the entire conversation, matching the customer&#x27;s language.</td></tr>
+<tr><td rowspan="4" class="tid">t06</td><td>1</td><td class="pass">PASS</td><td>The agent consistently referred to the customer&#x27;s name and booking reference, and the confirmed rescheduled date of &quot;Tuesday the 14th of July&quot; can be factually consistent with an original appointment &quot;tomorrow, Wednesday&quot; given a specific calendar interpretation.</td></tr>
+<tr><td>2</td><td class="pass">PASS</td><td>The agent provided information about the no-show fee, which the customer confirmed was a concern, and directly answered the customer&#x27;s question about reminders, without inventing any new policies or promises.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The customer&#x27;s request to reschedule the appointment was fully resolved on the call, with the new details confirmed and all follow-up questions addressed.</td></tr>
+<tr><td>4</td><td class="pass">PASS</td><td>The agent maintained English, the language used by the customer, throughout the entire call.</td></tr>
+<tr><td rowspan="4" class="tid">t07</td><td>1</td><td class="pass">PASS</td><td>The agent&#x27;s statement &quot;I see the mechanical wireless keyboard, delivered on the 26th of June&quot; is consistent with the customer&#x27;s description of a &quot;wireless keyboard I bought last week&quot; and provided order number.</td></tr>
+<tr><td>2</td><td class="pass">PASS</td><td>The agent presented a technical assessment and potential doorstep replacement as an existing process for the customer&#x27;s issue, not as an invented commitment or policy.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The customer&#x27;s request for a non-working keyboard was correctly escalated by scheduling a technical team callback for the next day, providing a case ID, and noting the preferred contact number and required items for replacement.</td></tr>
+<tr><td>4</td><td class="pass">PASS</td><td>The agent consistently used English, matching the language spoken by the customer, throughout the entire call.</td></tr>
+<tr><td rowspan="4" class="tid">t08</td><td>1</td><td class="pass">PASS</td><td>The agent consistently uses the details provided by the customer regarding their name, card, and the disputed charge, for instance, confirming &#x27;card 4412&#x27; and &#x27;899 rupees on the 30th&#x27;.</td></tr>
+<tr><td>2</td><td class="pass">PASS</td><td>The agent explains existing procedures for merchant subscriptions and chargeback disputes without inventing new policies or commitments when stating &#x27;Since it&#x27;s a merchant subscription, the cancellation and refund have to come from MuseZone directly&#x27; and &#x27;we can raise a chargeback dispute&#x27;.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The agent successfully blocks future charges as requested (&#x27;Done — future MuseZone charges on card 4412 will be declined&#x27;) and provides clear instructions for resolving the existing 899 rupee charge, including escalation details for a chargeback if the merchant refuses.</td></tr>
+<tr><td>4</td><td class="pass">PASS</td><td>The agent consistently communicates in English, the same language used by the customer throughout the call.</td></tr>
+<tr><td rowspan="4" class="tid">t09</td><td>1</td><td class="pass">PASS</td><td>The agent confirms customer details like &#x27;placed today at 9:15 AM&#x27; which aligns with the customer&#x27;s &#x27;placed this morning&#x27;, and does not contradict any other stated facts.</td></tr>
+<tr><td>2</td><td class="pass">PASS</td><td>The agent did not invent any commitments or policies; the refund was requested by the customer, and current pricing was stated factually.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The customer&#x27;s primary request to cancel the order was resolved immediately, and all subsequent questions about the refund, confirmation, and reorder price were also answered.</td></tr>
+<tr><td>4</td><td class="pass">PASS</td><td>The agent maintained consistent use of English throughout the call, matching the customer&#x27;s language.</td></tr>
+<tr><td rowspan="4" class="tid">t10</td><td>1</td><td class="pass">PASS</td><td>The agent consistently uses information provided by the customer, such as confirming the patient&#x27;s name as &#x27;श्री रमेश यादव&#x27; and the chosen appointment time as &#x27;कल सुबह 10 बजे&#x27;.</td></tr>
+<tr><td>2</td><td class="pass">PASS</td><td>The agent&#x27;s statements about appointment booking, consultation fees, and required documents are standard operational procedures and not invented commitments or policies.</td></tr>
+<tr><td>3</td><td class="pass">PASS</td><td>The agent successfully books an appointment for the customer with Dr. Verma for tomorrow at 10 AM, providing a booking reference APT-7742 and other necessary details.</td></tr>
+<tr><td>4</td><td class="fail">FAIL</td><td>The agent switches from Hindi to English with the line &quot;Alright, so I am booking you with Dr. Verma tomorrow at 10 AM. Your booking reference is APT-7742.&quot; and continues in English, despite the customer consistently speaking Hindi.</td></tr>
+</table>
+<div class="calib"><strong>Calibration:</strong> Judge caught 3/4 planted errors,
+0 false alarms on 6 clean transcripts.</div>
+</body></html>

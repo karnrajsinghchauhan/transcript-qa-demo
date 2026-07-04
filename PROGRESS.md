@@ -4,8 +4,7 @@ Standalone repo, built 2026-07-04. Purpose: minimal transcript-QA harness with p
 
 ## BLOCKED
 
-- **Step 7 BLOCKED: GEMINI_API_KEY is not set** (checked both the build shell and a fresh login shell). `python3 judge.py` exits with `FATAL: GEMINI_API_KEY environment variable is not set.` (exit code 1) — the loud-failure path works as specified. **No calibration numbers exist yet; report.html has not been generated.** Fix: `export GEMINI_API_KEY=<free-tier key>` then `python judge.py`.
-  - What WAS verified without the key: judge.py syntax; calibration bucketing (caught/missed/false-alarms) and report.html rendering, exercised with synthetic verdicts — caught=[t02,t05,t07], missed=[t10], false=[t01#c4] came out correctly for a constructed test case.
+- None. (Step 7 was blocked on a missing GEMINI_API_KEY at build time; King supplied the key on 2026-07-04 and the run completed. The key was passed as a process env var only — verified absent from every file in the repo.)
 
 ## Steps
 
@@ -16,5 +15,7 @@ Standalone repo, built 2026-07-04. Purpose: minimal transcript-QA harness with p
 - [x] 4. judge.py — calibration vs ground_truth.json (caught / missed / false alarms)
 - [x] 5. judge.py — report.html generation
 - [x] 6. README.md — purpose, quickstart, rubric, exclusions
-- [x] 7. Real run — **BLOCKED, no key** (see BLOCKED section); attempted, failed loudly as designed. Calibration numbers: none yet.
-- [x] 8. **Final: no calibration result — run blocked on missing GEMINI_API_KEY.** BLOCKED items: step 7 only. **Single next manual action for King: get a free-tier Gemini key (aistudio.google.com), run `export GEMINI_API_KEY=<key> && python3 judge.py`, check the calibration block in report.html; if the judge catches ≥3/4 planted errors, publish this repo and add it as proof point 3 in the outreach repo's PROFILE.md.**
+- [x] 7. Real run (2026-07-04, gemini-2.5-flash, one run, no tuning):
+  **planted errors caught: 3/4** (t02, t05, t10) · **planted errors missed: 1/4** (t07) · **false alarms on clean transcripts: 0**
+  - The t07 miss, with the judge's actual output (criterion 3, verdict PASS): *"The customer's request for a non-working keyboard was correctly escalated by scheduling a technical team callback for the next day, providing a case ID, and noting the preferred contact number and required items…"* — the judge accepted the agent's *note about* the customer's new number as if the number had been collected; it never was. Within the ≤1-miss threshold, so no prompt tuning was done, per the one-honest-run rule.
+- [x] 8. **Final: calibration 3/4 caught, 1 missed (t07), 0 false alarms — one honest run, no tuning.** BLOCKED items: none. **Single next manual action for King: review report.html, publish this repo, add its link as proof point 3 in the outreach repo's PROFILE.md** (then re-run /analyze-company Bolna + /audit-pitch Bolna to flip the pitch to SEND-READY).
