@@ -1,5 +1,7 @@
 # transcript-qa-demo
 
+Latest run: judge caught 3/4 planted errors, 0 false alarms on 6 clean transcripts. The miss is documented in PROGRESS.md — honest calibration is the point.
+
 a minimal transcript-QA harness — synthetic call transcripts with KNOWN planted errors are scored by an LLM judge against a plain-language rubric, so the judge itself is calibrated against ground truth we control. This is the answer to "who judges the judge": we know the errors because we planted them.
 
 ## Quickstart
